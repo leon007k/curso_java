@@ -1,0 +1,36 @@
+package com.example.demo;
+
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import temasvistos.Incremento;
+import temasvistos.MathematicOperations;
+
+@SpringBootApplication
+public class DemoJavaPlatziApplication {
+
+	public static void main(String[] args) {
+		//SpringApplication.run(DemoJavaPlatziApplication.class, args);
+		
+		//Incremento de valores
+		/*Incremento inc = new Incremento();
+		inc.setLives(5);
+		inc.setScore(0);
+		inc.MarioGame();*/
+		
+		//Operaciones Matemacias
+		MathematicOperations mat = new MathematicOperations();
+		mat.setW(12);
+		mat.setZ(5);
+		mat.setX(12.5);
+		mat.setY(5.5);
+		mat.NumberCeil();
+		mat.NumberFloor();
+		mat.NumberPow();
+		mat.NumberMax();
+		mat.NumExact();
+		mat.NumSubExact();
+	}
+}
