@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import temasvistos.Incremento;
 import temasvistos.MathematicOperations;
+import temasvistos.SwitchJavaDoc;
+import temasvistos.doWhile;
 
 @SpringBootApplication
 public class DemoJavaPlatziApplication {
@@ -21,7 +23,7 @@ public class DemoJavaPlatziApplication {
 		inc.MarioGame();*/
 		
 		//Operaciones Matemacias
-		MathematicOperations mat = new MathematicOperations();
+		/*MathematicOperations mat = new MathematicOperations();
 		mat.setW(12);
 		mat.setZ(5);
 		mat.setX(12.5);
@@ -31,6 +33,15 @@ public class DemoJavaPlatziApplication {
 		mat.NumberPow();
 		mat.NumberMax();
 		mat.NumExact();
-		mat.NumSubExact();
+		mat.NumSubExact();*/
+		
+		//Uso del swithCase
+		//SwitchJavaDoc sjd = new SwitchJavaDoc(5,"EUO");
+		//double convertDolar = sjd.converToDolar(sjd.getQuantity(), sjd.getCurrency());
+		//System.out.println(sjd.messageConvertToDolar(convertDolar));
+		
+		//Uso de do-while
+		doWhile dw = new doWhile();
+		dw.selectCinema();
 	}
 }
