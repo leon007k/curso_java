@@ -5,6 +5,9 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.example.poo.Doctor;
+import com.example.ui.UiMenu;
+
 import temasvistos.Incremento;
 import temasvistos.MathematicOperations;
 import temasvistos.SwitchJavaDoc;
@@ -41,7 +44,10 @@ public class DemoJavaPlatziApplication {
 		//System.out.println(sjd.messageConvertToDolar(convertDolar));
 		
 		//Uso de do-while
-		doWhile dw = new doWhile();
-		dw.selectCinema();
+		//doWhile dw = new doWhile();
+		//dw.selectCinema();
+		
+		//Uso de POO
+		UiMenu.showMenu();
 	}
 }
